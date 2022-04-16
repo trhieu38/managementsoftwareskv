@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLTTNNDataSet6" targetNamespace="http://tempuri.org/QLTTNNDataSet6.xsd" xmlns:mstns="http://tempuri.org/QLTTNNDataSet6.xsd" xmlns="http://tempuri.org/QLTTNNDataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLTTNNConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLTTNNConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLTTNN.Properties.Settings.GlobalReference.Default.QLTTNNConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dotthiTableAdapter" GeneratorDataComponentClassName="dotthiTableAdapter" Name="dotthi" UserDataComponentName="dotthiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLTTNNConnectionString (Settings)" DbObjectName="QLTTNN.dbo.dotthi" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT dotthi FROM dbo.dotthi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="dotthi" DataSetColumn="dotthi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLTTNNDataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLTTNNDataSet6" msprop:Generator_UserDSName="QLTTNNDataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dotthi" msprop:Generator_TableClassName="dotthiDataTable" msprop:Generator_TableVarName="tabledotthi" msprop:Generator_TablePropName="dotthi" msprop:Generator_RowDeletingName="dotthiRowDeleting" msprop:Generator_RowChangingName="dotthiRowChanging" msprop:Generator_RowEvHandlerName="dotthiRowChangeEventHandler" msprop:Generator_RowDeletedName="dotthiRowDeleted" msprop:Generator_UserTableName="dotthi" msprop:Generator_RowChangedName="dotthiRowChanged" msprop:Generator_RowEvArgName="dotthiRowChangeEvent" msprop:Generator_RowClassName="dotthiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dotthi" msprop:Generator_ColumnVarNameInTable="columndotthi" msprop:Generator_ColumnPropNameInRow="dotthi" msprop:Generator_ColumnPropNameInTable="dotthiColumn" msprop:Generator_UserColumnName="dotthi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

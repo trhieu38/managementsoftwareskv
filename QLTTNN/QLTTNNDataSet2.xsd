@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLTTNNDataSet2" targetNamespace="http://tempuri.org/QLTTNNDataSet2.xsd" xmlns:mstns="http://tempuri.org/QLTTNNDataSet2.xsd" xmlns="http://tempuri.org/QLTTNNDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLTTNNConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLTTNNConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLTTNN.Properties.Settings.GlobalReference.Default.QLTTNNConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="monhocTableAdapter" GeneratorDataComponentClassName="monhocTableAdapter" Name="monhoc" UserDataComponentName="monhocTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLTTNNConnectionString (Settings)" DbObjectName="QLTTNN.dbo.monhoc" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT tenmonhoc FROM dbo.monhoc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tenmonhoc" DataSetColumn="tenmonhoc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLTTNNDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLTTNNDataSet2" msprop:Generator_UserDSName="QLTTNNDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="monhoc" msprop:Generator_TableClassName="monhocDataTable" msprop:Generator_TableVarName="tablemonhoc" msprop:Generator_TablePropName="monhoc" msprop:Generator_RowDeletingName="monhocRowDeleting" msprop:Generator_RowChangingName="monhocRowChanging" msprop:Generator_RowEvHandlerName="monhocRowChangeEventHandler" msprop:Generator_RowDeletedName="monhocRowDeleted" msprop:Generator_UserTableName="monhoc" msprop:Generator_RowChangedName="monhocRowChanged" msprop:Generator_RowEvArgName="monhocRowChangeEvent" msprop:Generator_RowClassName="monhocRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tenmonhoc" msprop:Generator_ColumnVarNameInTable="columntenmonhoc" msprop:Generator_ColumnPropNameInRow="tenmonhoc" msprop:Generator_ColumnPropNameInTable="tenmonhocColumn" msprop:Generator_UserColumnName="tenmonhoc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

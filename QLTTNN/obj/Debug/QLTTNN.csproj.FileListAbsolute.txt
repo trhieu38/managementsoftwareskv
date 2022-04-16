@@ -1,0 +1,35 @@
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\bin\Debug\QLTTNN.exe.config
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\bin\Debug\QLTTNN.exe
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\bin\Debug\QLTTNN.pdb
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.csprojResolveAssemblyReference.cache
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.dangnhap.resources
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.Properties.Resources.resources
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.csproj.GenerateResource.Cache
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.exe
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.pdb
+D:\Program Files\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.trangchu.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\bin\Debug\QLTTNN.exe.config
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.exe
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.pdb
+D:\Study\Project Visual\QLTTNN\QLTTNN\bin\Debug\QLTTNN.exe
+D:\Study\Project Visual\QLTTNN\QLTTNN\bin\Debug\QLTTNN.pdb
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.csprojResolveAssemblyReference.cache
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.dangnhap.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.hocvien.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.monhoc.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.Properties.Resources.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.trangchu.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.csproj.GenerateResource.Cache
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.diemkt.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.giaovien.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.lophoc.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.taichinh.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.hocphi.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.tkhocvien.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.csproj.ResolveComReference.cache
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.hotro.resources
+D:\Study\Project Visual\QLTTNN\QLTTNN\obj\Debug\QLTTNN.taikhoan.resources
+D:\Study\Đồ Án Tốt Nghiệp\Phần mềm quản lý trung tâm ngoại ngữ SKV C#, Winform\QLTTNN\QLTTNN\bin\Debug\QLTTNN.exe.config
+D:\Study\Đồ Án Tốt Nghiệp\Phần mềm quản lý trung tâm ngoại ngữ SKV C#, Winform\QLTTNN\QLTTNN\obj\Debug\QLTTNN.csproj.ResolveComReference.cache
+D:\Study\Đồ Án Tốt Nghiệp\Phần mềm quản lý trung tâm ngoại ngữ SKV C#, Winform\QLTTNN\QLTTNN\obj\Debug\QLTTNN.exe
+D:\Study\Đồ Án Tốt Nghiệp\Phần mềm quản lý trung tâm ngoại ngữ SKV C#, Winform\QLTTNN\QLTTNN\obj\Debug\QLTTNN.pdb

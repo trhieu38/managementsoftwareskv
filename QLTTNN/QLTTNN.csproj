@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DE6A426-1A4A-4F99-8526-B3D6FA9B9386}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLTTNN</RootNamespace>
+    <AssemblyName>QLTTNN</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dangnhap.Designer.cs">
+      <DependentUpon>dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="diemkt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diemkt.Designer.cs">
+      <DependentUpon>diemkt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giaovien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giaovien.Designer.cs">
+      <DependentUpon>giaovien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hocphi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hocphi.Designer.cs">
+      <DependentUpon>hocphi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hocvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hocvien.Designer.cs">
+      <DependentUpon>hocvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hotro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hotro.Designer.cs">
+      <DependentUpon>hotro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lophoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lophoc.Designer.cs">
+      <DependentUpon>lophoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="monhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="monhoc.Designer.cs">
+      <DependentUpon>monhoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLTTNNDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTTNNDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTTNNDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTTNNDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTTNNDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTTNNDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTTNNDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTTNNDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTTNNDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="taichinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taichinh.Designer.cs">
+      <DependentUpon>taichinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="taikhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taikhoan.Designer.cs">
+      <DependentUpon>taikhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tkhocvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tkhocvien.Designer.cs">
+      <DependentUpon>tkhocvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trangchu.Designer.cs">
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dangnhap.resx">
+      <DependentUpon>dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diemkt.resx">
+      <DependentUpon>diemkt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giaovien.resx">
+      <DependentUpon>giaovien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hocphi.resx">
+      <DependentUpon>hocphi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hocvien.resx">
+      <DependentUpon>hocvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hotro.resx">
+      <DependentUpon>hotro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lophoc.resx">
+      <DependentUpon>lophoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="monhoc.resx">
+      <DependentUpon>monhoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="taichinh.resx">
+      <DependentUpon>taichinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taikhoan.resx">
+      <DependentUpon>taikhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tkhocvien.resx">
+      <DependentUpon>tkhocvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trangchu.resx">
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLTTNNDataSet.xsc">
+      <DependentUpon>QLTTNNDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet.xss">
+      <DependentUpon>QLTTNNDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet1.xsc">
+      <DependentUpon>QLTTNNDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet1.xss">
+      <DependentUpon>QLTTNNDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet2.xsc">
+      <DependentUpon>QLTTNNDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet2.xss">
+      <DependentUpon>QLTTNNDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet3.xsc">
+      <DependentUpon>QLTTNNDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet3.xss">
+      <DependentUpon>QLTTNNDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet4.xsc">
+      <DependentUpon>QLTTNNDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet4.xss">
+      <DependentUpon>QLTTNNDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet5.xsc">
+      <DependentUpon>QLTTNNDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet5.xss">
+      <DependentUpon>QLTTNNDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet6.xsc">
+      <DependentUpon>QLTTNNDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet6.xss">
+      <DependentUpon>QLTTNNDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet7.xsc">
+      <DependentUpon>QLTTNNDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QLTTNNDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTTNNDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTTNNDataSet7.xss">
+      <DependentUpon>QLTTNNDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\school.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scholarship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teacher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\class.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
